@@ -1,0 +1,9 @@
+<Alloy>
+	<Window class="container" title="Missing" >
+        <Label class="lbltitulo">Ingrese su usuario y contraseña.</Label>
+        <TextField class="txtemail" id="email" hintText="Email" />
+        <TextField class="txtpass" id="pass" passwordMask="true" hintText="Contraseña" />
+        <Button onClick="Login" title="Entrar" class="btnlogin"/>
+        <Label class="lblfooter">Powered by Missing SpA.</Label>
+    </Window>
+</Alloy>
